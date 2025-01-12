@@ -15,7 +15,7 @@ def homeScreen(screen):
     click_effect = pg.mixer.Sound("SoundEffects/click1.mp3")
 
     # Background
-    bg = pg.image.load("Background/4.png")
+    bg = pg.image.load("Background/home.png")
     bg = pg.transform.scale(bg, (BOARD_WIDTH , BOARD_HEIGHT))
     screen.blit(bg, (0, 1))
 

@@ -10,7 +10,7 @@ SQUARE_SIZE = BOARD_HEIGHT // DIMENSION
 def gameOverScreen(screen, message):
     pg.mixer.init()
     click_effect = pg.mixer.Sound("SoundEffects/click1.mp3")
-    bg = pg.image.load("Background/6.png")
+    bg = pg.image.load("Background/gameOver.png")
     bg = pg.transform.scale(bg, (BOARD_WIDTH , BOARD_HEIGHT))
     screen.blit(bg, (0, 1))
 
